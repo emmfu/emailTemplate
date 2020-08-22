@@ -1,0 +1,40 @@
+.container-fluid {
+    height: 100vh;
+}
+#sidebar {
+    background-color: #4e4949;
+    color: white;
+    padding-top: 10px;
+}
+#list {
+    background-color: #F5F1ED;
+    padding-top: 10px;
+}
+#item {
+    padding-top: 10px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row {
+    height: 100%;
+}
+
+#searchbar {
+    padding-bottom: 10px;
+}
+
+#addresses {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#subjectline {
+    font-size: larger;
+    font-weight: bolder;
+}

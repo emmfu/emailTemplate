@@ -1,31 +1,59 @@
+/* Container */
 .container-fluid {
     height: 100vh;
 }
-#sidebar {
-    background-color: #4e4949;
-    color: white;
-    padding-top: 10px;
-}
-#list {
-    background-color: #F5F1ED;
-    padding-top: 10px;
-}
-#item {
-    padding-top: 10px;
-}
-
-#welcome {
-    display: flex;
-    flex-direction: row;
-}
-
 
 .row {
     height: 100%;
 }
 
+/* Navbar menu column */
+#sidebarCol {
+    background-color: #4e4949;
+    padding-top: 10px;
+}
+
+.navbar {
+    border: 2px solid blue;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    color: white;
+}
+
+#btnCompose {
+    margin-bottom: 3px;
+}
+
+#btnMailboxes {
+    margin-bottom: 3px;
+}
+
+#btnMailbox {
+    margin-right: 3px;
+}
+
+
+/* Message list column */
+#listCol {
+    background-color: #F5F1ED;
+    padding-top: 10px;
+}
+
 #searchbar {
     padding-bottom: 10px;
+}
+
+/* Message detail column */
+#itemCol{
+    padding-top: 10px;
 }
 
 #addresses {

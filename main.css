@@ -32,12 +32,15 @@
     margin-bottom: 3px;
 }
 
-#btnMailboxes {
-    margin-bottom: 3px;
+.btnMailbox {
+    flex-grow: 1;
+    margin: 1px;
+    border-radius: 7%;
 }
 
-#btnMailbox {
-    margin-right: 3px;
+#mailbox-row {
+    flex-wrap: wrap;
+    margin-bottom: 3px;
 }
 
 
